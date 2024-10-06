@@ -75,7 +75,7 @@ const loadVideos = async (keyword = "") => {
   );
   const data = await res.json();
   displayVideos(data.videos);
-
+}
 
 // Display Videos
 const displayVideos = (videos) => {
